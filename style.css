@@ -22,5 +22,13 @@
 .right{
     margin-left: 150px;
     font-size: 8vh;
-
 }
+
+/*the most boring day*/
+
+#timeline {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
