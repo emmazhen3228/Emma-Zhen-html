@@ -2,7 +2,16 @@
 html {
     font-family: Garamond, serif;
     text-align: center;
+    background-color: rgb(201, 237, 250);
   }
+
+a:link {
+    text-decoration: none;
+  }
+
+a:hover {
+    color: rgb(241, 252, 255);
+}
 
 /*nav bar*/
 
@@ -26,16 +35,41 @@ nav ul{
     color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
   }
   
   nav li:hover{
-    background-color: #2f2c72;
+    background-color: #5c589f;
   }
-  
-  nav #active{
-    background-color: rgb(4, 2, 59);
+
+/*home page*/
+
+a:link {
+    text-decoration: none;
   }
+
+.main {
+    margin: 5px;
+    font-size: 5vh;
+}
+
+#boring {
+    font-size: 15vh;
+    background-color: #a3d7f7;
+    color: #2c3572;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#words {
+    background-color: #c4bfed;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.description {
+    font-size: 10vh;
+    color: #a7a1d9;
+}
 
 /*the page not found*/
 
@@ -73,7 +107,7 @@ nav ul{
   }
 
 .day {
-    background-color: #dcefec;
+    background-color: #beece5;
     font-size: 150%;
 }
 
@@ -85,7 +119,7 @@ nav ul{
 /*the page on colour*/
 
 .colour {
-    background-color: rgb(231, 243, 255);
+    background-color: rgb(213, 230, 248);
 }
 
 .colour_section {
